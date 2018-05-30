@@ -1,0 +1,59 @@
+
+div .list {
+    padding: 5px;
+}
+
+hr.malz {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #1616C2;
+    padding: 0;
+}
+
+div.list span, .isim {
+    padding: 7px;
+    font-size: large;
+    border: 1px;
+}
+.isim {
+    margin-right: 10%;
+    color: #FFFFFF;
+    border-radius: 5px;
+    background-color: #BDBDBD;
+    display: inline-block;
+    width: 130px;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.label {
+    margin-right: 265px;
+    width: 115px;
+    display: inline-block;
+}
+h2.baslik{
+    color: #595959;
+    margin-left:200px ;
+}
+.buton {
+    margin-right: 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+    width: 25px;
+    height: 25px;
+}
+
+.buton:hover {
+    box-shadow: 0 37px 20px -20px rgba(0, 0, 0, 0.2);
+    background-color: #adadad;
+}
+.onay{
+    background: #4CAF50;
+}
+.del{
+    background: red;
+}

@@ -1,0 +1,179 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html, body{
+  font-family:'Montserrat-Regular';
+  font-size: 100%;
+  background:#F3F3F4;
+  overflow-x: hidden;
+  color: #999;
+}
+body a{
+  color: #999;
+  text-decoration: none;
+}
+.header{
+  width: 100%;
+  height: 4em;
+  margin: 0;
+  background-color: #fff;
+}
+span.think{
+  color: #5379fa !important;
+}
+.logo {
+  width: 17.5%;
+  background:url('../images/backgroundbulur.png');
+  text-align: center;
+  color: #fff;
+  height: 2.7em;
+  background-size:cover;
+  float: left;
+  padding-top: 0.5em;
+  font-size: 20px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius:30px;
+}
+.banner{
+  float: left;
+  font-size: 18px;
+  padding: 1.1em;
+}
+.banner i {
+  margin-right: 10px;
+}
+.header-right{
+  float: right;
+  font-size: 18px;
+  padding: 1.1em;
+  font-family: 'Montserrat-Regular' !important;
+  cursor: pointer;
+}
+.header-right label {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.sidebar{
+  width: 17.5%;
+  float:left;
+  height: 100vh;
+  background-color: #fff;
+}
+#accordion {
+  list-style: none;
+  padding: 0 0 0 0;
+  width: 100%;
+}
+#accordion div {
+  display: block;
+  cursor: pointer;
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  font-size: 20px;
+}
+#accordion i{
+  float: left;
+  margin-right: 15px;
+}
+#accordion span.fa-sort-down{
+  float: right;
+  margin-top: -3px;
+}
+#accordion li a {
+  transition: 0.5s;
+  text-decoration: none;
+}
+#accordion li a:hover ,.exit:hover{
+  transition: 0.5s;
+  color: #186ba0;
+  text-decoration: none;
+}
+#accordion ul {
+  list-style: none;
+  padding: 0 0 0 0;
+  display: none;
+}
+#accordion ul li {
+  font-weight: normal;
+  cursor: auto;
+
+  border-bottom: 1px solid #ddd;
+  padding: 12px 12px 12px 35px;
+}
+#accordion a {
+  text-decoration: none;
+}
+#accordion a:hover {
+  text-decoration: underline;
+}
+.navigation {
+  padding: 0.75%;
+  margin: 1.1% 1.1% 0 1.1%;
+  float: right;
+  width: 78%;
+  background-color: #fff;
+}
+.navigation i {
+  margin-right: 5px;
+}
+.content {
+  margin: 1.1%;
+  float: right;
+  width: 78.75%;
+  height: 0.75%;
+  background-color: #fff;
+}
+div .list {
+  padding: 25px;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid red;
+  padding: 0;
+}
+
+div.list span, .isim {
+  padding: 10px;
+  font-size: large;
+  border: 1px;
+}
+
+.delet {
+  color: red;
+}
+
+.isim {
+  margin-right: 10%;
+  color: #FFFFFF;
+  border-radius: 5px;
+  background-color: #BDBDBD;
+  display: inline-block;
+  width: 130px;
+}
+
+.label {
+  margin-right: 55%;
+  width: 185px;
+  display: inline-block;
+}
+
+.buton {
+  margin-right: 10px;
+  border-radius: 10px;
+  background-color: #BDBDBD;
+  color: #FFFFFF;
+  box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  transition: all ease-in-out 300ms;
+  width: 30px;
+  height: 30px;
+}
+
+.buton:hover {
+  box-shadow: 0 37px 20px -20px rgba(0, 0, 0, 0.2);
+  background-color: #adadad;
+}
